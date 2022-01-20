@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+margin: auto;
+}
+
+.main {
+  width: 800px;
+  font-size:x-large;
+  padding: 50px;
+  margin-top:70px;
+  
+}
+ .containers{
+   margin:70px;
+ }
+
+button{
+  background-color: black;
+  color: white;
+  padding: 7px 15px;
+  border: none;
+}
+p{
+  font-size:larger;
+  font-weight:500;
+}
+.heading{
+  font-size:50px;
+  font-weight:700;
+}
+ button+.heading{
+margin-top:30px;
+ }
+
+ .date{
+  margin-bottom:50px;
+ }
+ img{
+   width: 50px;
+   height: 50px;
+ }
+
+
+ .right{
+   display: flex;
+ }
+
+ .right1{
+  width: 650px;
+}

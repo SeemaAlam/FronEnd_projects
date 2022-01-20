@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="../styles/style.css" />
+  <style>
+   
+  </style>
+  <body>
+ 
+  </body>
+</html>
+<script type="module">
+    import navbar from "../componrnts/navbar.js";
+    document.body.innerHTML=navbar();
+   let name="chicken";
+
+   var url= `https://www.themealdb.com/api/json/v1/1/random.php`;
+
+  import {getData,appendData1} from '../scripts/shodata.js';
+
+let response=getData(url);
+ //console.log(response);
+
+ response.then((data)=>{
+     let parent=document.getElementById('data');
+     appendData1(data,parent);
+     console.log(data.meals[0])
+ });
+
+
+</script>

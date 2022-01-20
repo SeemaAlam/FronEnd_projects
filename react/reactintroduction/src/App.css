@@ -1,0 +1,48 @@
+button{
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 10px;
+  width:150px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+ .main{
+   display: grid;
+   grid-template-columns: auto auto;
+   width: 500px;
+ }
+
+ /* .joinus{
+  background: #0069eb;
+ } */
+
+
+ .container{
+   padding: 50px;
+ }
+
+ button:nth-child(1){
+   background-color:steelblue
+ }
+ button:nth-child(2){
+  background-color:darkcyan;
+}
+button:nth-child(3){
+  background-color:orange;
+}
+button:nth-child(4){
+  background-color:red;
+}
+button:nth-child(5){
+  background-color:olivedrab
+}
+button:nth-child(6){
+  background-color:slateblue;
+}
+button:nth-child(7){
+  background-color:mediumvioletred;
+}
+button:nth-child(8){
+  background-color:peru;
+}

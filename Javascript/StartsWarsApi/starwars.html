@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starwars</title>
+
+<style>
+    body{
+        margin:0;
+        padding:0;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+  
+  .searchBox{
+    padding-top: 200px;
+    text-align: center;
+  }
+  
+   #starwar{
+    height: auto;
+    width: 100%;
+  }
+  .bg{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),url("https://cdn.wallpapersafari.com/77/82/A6DQ4U.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* width: 80%; */
+    margin: auto;
+    }
+    #starWarChars{
+    overflow: hidden;
+    color: white;
+    text-align:left;
+    margin: auto;
+    margin-top:5px;;
+    box-sizing: border-box;
+    background-color:none;
+    font-size:16px;
+    width:500px;
+    padding:0 10px;
+    border: 1px blue solid;
+    animation-name: example;
+    animation-duration:3s;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+    display: none;
+     }
+     @keyframes example {
+  from {color:orangered}
+  to {color: yellow;}
+}
+  #starWarChars>p:hover{
+   color:indigo;
+   background-color: rgb(186, 203, 226);
+  }
+  
+  #search{
+    height:50px;
+  border:none;
+  width:500px;
+  font-size:16px;
+  outline: none;
+  border-radius:30px;
+  background: transparent;
+  border: 1px solid blue;
+  color:white;
+  box-sizing: border-box;
+  padding:10px;
+  }
+  #search::placeholder{
+     color: orangered;
+  }
+  .search_searchBox{
+      text-align: center;
+  }
+img{
+    height: 150px;
+    margin: auto;
+}
+ 
+</style>
+</head>
+<body>
+
+
+<div class="bg">
+    
+    <div class="searchBox">
+        <img src="starwars.png">
+        <div class="search_searchBox">
+            <div class="searchInput">
+                <input oninput="throttleFunction()" type="text" placeholder="Search any Character" id="search" autocomplete="off">
+            </div>
+            <div id="starWarChars"></div>
+ 
+        </div>
+        
+    </div>
+
+</div>
+
+
+</body>
+</html>
+<script>
+
+let starWarsChar = document.getElementById('starWarChars');
+
+var timerId;
+
+function throttleFunction(){
+
+if(timerId){
+    return false;
+}
+
+timerId = setTimeout(() => {
+    main();
+    timerId = undefined;
+}, 500);
+}
+
+
+async function searchChars(){
+
+    let query = document.getElementById('search').value;
+
+    if(query.length <= 2){
+        return false;
+    }
+    
+
+    let res = await fetch(`https://swapi.dev/api/people/?search=${query}`)
+    let data = await res.json();
+
+   return data.results;  
+}
+
+
+
+function appendMovies(results){
+    console.log(results);
+    
+    starWarsChar.innerHTML = null;
+    starWarsChar.style.display="none";
+
+    results.forEach(({ name,birth_year,hair_color,skin_color,height} ) => {
+        let p = document.createElement("p");
+
+        p.innerText += `Name=${name}     birth_year=${birth_year}      hair_color=${hair_color} \n     skin_color=${skin_color}     height=${height}`;
+
+
+        starWarsChar.append(p);
+
+        starWarsChar.style.display="block";
+    });
+}
+
+async function main(){
+    let movies = await searchChars();
+ 
+
+   appendMovies(movies);
+}
+</script>

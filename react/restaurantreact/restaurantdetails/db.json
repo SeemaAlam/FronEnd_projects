@@ -1,0 +1,221 @@
+{
+  "restaurants": [{
+  "stars":3.3,
+    "name": "McGlynn, Collins and Lueilwitz",
+  "cost_for_two": 465,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQizlwKyw9lzyWKM6StGtUE7l4RycxoiBM6XA&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": true,
+    "upi": true
+},
+  "min": 54
+}, {
+  "stars":4.3,
+  "name": "Farrell LLC",
+  "cost_for_two": 593,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLB-ihc8-fb7nTZJjGri3yaEgXass4UlFpA&usqp=CAU",
+  "payment": {
+    "card": false,
+    "cash": true,
+    "upi": true
+},
+  "min": 115
+}, {
+  "stars":2,
+  "name": "Wehner, Lueilwitz and Wilderman",
+  "cost_for_two": 447,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmLP3VPa4jj5UTs3MlRljhgPNAnP3p0bgkrA&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": false,
+    "upi": true
+},
+  "min": 113
+}, {
+  "stars":5,
+  "name": "Schultz-Lakin",
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEs7hElCG3vSFFTUl_lwXI2AD6YIjcPVhVkQ&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": true,
+    "upi": false
+},
+  "min": 88
+}, {
+  "stars":2.5,
+  "name": "Barton-Miller",
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_WXmJIR10twlzAW4AT7qZGuft3J8mqKbQpw&usqp=CAU",
+  "payment": {
+    "card": false,
+    "cash": false,
+    "upi": true
+},
+  "min": 133
+}, {
+  "stars":1,
+  "name": "Abshire-Funk",
+  "cost_for_two": 546,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ5TmMCR8GvXZLLejWlTHOacPmgMeQZoWCRw&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": false,
+    "upi": false
+},
+  "min": 123
+}, {
+  "stars":2.2,
+  "name": "Harris, Ullrich and Spinka",
+  "cost_for_two": 995,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2znWE5sRrp9ElKbFK0h7o3dyDzksYLsnzBw&usqp=CAU",
+  "payment": {
+    "card": false,
+    "cash": true,
+    "upi": false
+},
+  "min": 140
+}, {
+  "stars":4.8,
+  "name": "Cartwright, Collier and Crooks",
+  "cost_for_two": 800,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGXYhqdFe18dMPUNVwkDLktNIsGTqKxT3fxg&usqp=CAU",
+  "payment": {
+    "card": false,
+    "cash": true,
+    "upi": true
+},
+  "min": 143
+}, {
+  "stars":4,
+  "name": "Daugherty Inc",
+  "cost_for_two": 644,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv-ytZDip_gKFDnDaOl5-BCvgUN3fhgFtwKw&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": false,
+    "upi": true
+},
+  "min": 148
+}, {
+  "stars":1.9,
+  "name": "Hagenes Group",
+  "cost_for_two": 538,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgeqZ0SSbvU3i-hgNe-gMgYGT496b2RGCS8Q&usqp=CAU",
+  "payment": {
+    "card": false,
+    "cash": true,
+    "upi": false
+},
+  "min": 102
+}, {
+  "stars":2,
+  "name": "Thompson, Kuhic and Jones",
+  "cost_for_two": 678,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdUQmarLlI84X5oyQYHBYYp1gKB4YNKhCNkg&usqp=CAU",
+  "payment": {
+    "card": false,
+    "cash": true,
+    "upi": true
+},
+  "min": 125
+}, {
+  "stars":3.3,
+  "name": "MacGyver-McClure",
+  "cost_for_two": 804,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSGEZcfdbQDvd5FlRvJzPAqri_IO_mo1V05g&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": true,
+    "upi": false
+},
+  "min": 146
+}, {
+  "stars":3.1,
+  "name": "Skiles Inc",
+  "cost_for_two": 250,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTudNTt00L_xQ2_6_aKF0HwBGV_OWs4V3DrCw&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": true,
+    "upi": true
+},
+  "min": 57
+}, {
+  "stars":4.2,
+  "name": "Jerde, Metz and Rippin",
+  "cost_for_two": 978,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTducmHV5Crom2JB9i-p8uTgnDRi_Q_vJaeww&usqp=CAU",
+  "payment": {
+    "card":false,
+    "cash": false,
+    "upi": true
+},
+  "min": 121
+}, {
+  "stars":2.7,
+  "name": "Brakus-Dicki",
+  "cost_for_two": 496,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQotrwKDAAaT_abC25PNyir8_yPMlxjETTWPw&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": true,
+    "upi": true
+},
+  "min": 118
+}, {
+  "stars":1.7,
+  "name": "Labadie-Huel",
+  "cost_for_two": 394,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSQ1RyaDEEZrOXxhUq7qQWm0sOpJFwRtAqDQ&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": false,
+    "upi": false
+},
+  "min": 135
+}, {
+  "stars":0,
+  "name": "Spinka, Stoltenberg and Beahan",
+  "cost_for_two": 1948,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm9vNWR6uj0RmVAQSa7pEB2nWkojvQoW_21Q&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": false,
+    "upi": true
+},
+  "min": 111
+}, {
+  "stars":0.8,
+  "name": "Wolff and Sons",
+  "cost_for_two": 905,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLMkV5HoB-fFzeO3oycZ-cgBCh8TCwbHXcyw&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": false,
+    "upi": false
+},
+  "min": 95
+}, {
+  "stars":1.75,
+  "name": "Skiles Group",
+  "cost_for_two": 486,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2EtR_v1XYFIi3bCujkdXEU03YYa_CWm7jqQ&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": true,
+    "upi": false
+},
+  "min": 147
+}, {
+  "stars":4.9,
+  "name": "Mosciski-Dickinson",
+  "cost_for_two": 536,
+  "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb8Jjo8Wq8sQ8nl8sM8XDPDc86c--79wxCzA&usqp=CAU",
+  "payment": {
+    "card": true,
+    "cash": true,
+    "upi": true
+},
+  "min": 71
+}]
+}
